@@ -1,7 +1,4 @@
-def anagram():
-    word1 = input()
-    word2 = input()
-
+def anagram(word1, word2):
     if word1.isspace == True:
         return False
     
@@ -18,7 +15,7 @@ def anagram():
             sum1 += word1.count(letter)
         for letter in word2:
             sum2 += word2.count(letter)
-            
+
         if sum1 == sum2:
             return True
         else:
@@ -26,6 +23,8 @@ def anagram():
     else:
         return False
 
+word1 = input()
+word2 = input()
 
 if __name__ == '__main__':
-    print(anagram())
+    print(anagram(word1, word2))

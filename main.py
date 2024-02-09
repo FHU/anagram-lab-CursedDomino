@@ -23,9 +23,7 @@ def anagram(word1, word2):
     else:
         return False
 
-word1 = input()
-word2 = input()
-
-
 if __name__ == '__main__':
+    word1 = input()
+    word2 = input()
     print(anagram(word1, word2))

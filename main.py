@@ -1,5 +1,5 @@
 def anagram(word1, word2):
-    if word1.isspace == True:
+    if word1.isspace()  == True:
         return False
     
     word1 = word1.replace(' ', '')

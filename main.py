@@ -26,5 +26,6 @@ def anagram(word1, word2):
 word1 = input()
 word2 = input()
 
+
 if __name__ == '__main__':
     print(anagram(word1, word2))
